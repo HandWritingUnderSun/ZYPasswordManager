@@ -2,10 +2,10 @@
 <hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" default-lazy="false" >
 	<!-- more mapping info here -->
 	<class name ="ZYPasswordManager.A01,ZYPasswordManager" table="A01">
-		<id name ="A00" type="Guid" column="ID">
+		<id name ="A00" type="Guid" column="A00">
 			<generator class="assigned"/>
 		</id>
-		<property name="A0101" type="String" column="Name"/>
-		<property name="A0104" type="String" column="Password"/>
+		<property name="A0101" type="String" column="A0101"/>
+		<property name="A0104" type="String" column="A0104"/>
 	</class>
 </hibernate-mapping>

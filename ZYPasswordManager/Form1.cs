@@ -1,14 +1,4 @@
-﻿using FirstNhibernateDemo;
-using NHibernate;
-using NHibernate.Cfg;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 using System.Windows.Forms;
 
 namespace ZYPasswordManager
@@ -44,6 +34,11 @@ namespace ZYPasswordManager
 
             ////关闭会话对象
             //session.Close();
+            A01Repository a01Repository = new A01Repository();
+            A01 a01temp=a01Repository.GetA01Info(new Guid("C99FB661-1172-4509-A5C3-A246EE8F6D3F"));
+            dataGridView1.Rows[0].Cells[0].Value = a01temp.A00.ToString();
+            dataGridView1.Rows[0].Cells[1].Value = a01temp.A0101.ToString();
+            dataGridView1.Rows[0].Cells[2].Value = a01temp.A0104.ToString();
         }
 
         private void button1_Click(object sender, EventArgs e)

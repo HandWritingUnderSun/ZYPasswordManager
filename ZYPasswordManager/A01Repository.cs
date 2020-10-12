@@ -1,18 +1,15 @@
 ﻿using NHibernate;
-using System.Collections.Generic;
-using System.Linq;
+using System;
 
 namespace ZYPasswordManager
 {
     public class A01Repository
     {
-        public List<A01> GetA01InfoList()
+        public A01 GetA01Info(Guid A00)
         {
             using (ISession session = SessionManager.GetSession())
             {
-                ICriteria criteria = session.CreateCriteria<A01>();
-                List<A01> lsAtt = criteria.List<A01>().ToList();
-                return lsAtt;
+                    return session.Get<A01>(A00);
             }
         }
 

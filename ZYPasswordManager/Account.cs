@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FirstNhibernateDemo
+namespace ZYPasswordManager
 {
     public class Account
     {

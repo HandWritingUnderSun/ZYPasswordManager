@@ -5,7 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
-namespace FirstNhibernateDemo
+namespace ZYPasswordManager
 {
     class AccountRepository
     {
@@ -21,18 +21,18 @@ namespace FirstNhibernateDemo
             }
         }
 
-        public IList GetEntityList()
-        {
-            IList list;
-            using (ISession session = NHibernateHelper.OpenSession())
-            {
-                using (ITransaction transaction = session.BeginTransaction())
-                {
-                    list = session.;
-                }
-            }
-            transaction.Commit();
-            return list;
-        }
+        //public IList GetEntityList()
+        //{
+        //    IList list;
+        //    using (ISession session = NHibernateHelper.OpenSession())
+        //    {
+        //        using (ITransaction transaction = session.BeginTransaction())
+        //        {
+        //            list = session.;
+        //        }
+        //    }
+        //    transaction.Commit();
+        //    return list;
+        //}
     }
 }

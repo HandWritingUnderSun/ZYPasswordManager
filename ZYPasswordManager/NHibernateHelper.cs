@@ -2,7 +2,7 @@
 using NHibernate;
 using NHibernate.Cfg;
 
-namespace FirstNhibernateDemo
+namespace ZYPasswordManager
 {
     public class NHibernateHelper
     {

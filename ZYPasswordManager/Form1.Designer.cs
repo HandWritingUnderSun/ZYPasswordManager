@@ -35,9 +35,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.listView1 = new System.Windows.Forms.ListView();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.A00 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.A0101 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.A0104 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -95,33 +92,11 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.A00,
-            this.A0101,
-            this.A0104});
             this.dataGridView1.Location = new System.Drawing.Point(368, 220);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
             this.dataGridView1.Size = new System.Drawing.Size(357, 150);
             this.dataGridView1.TabIndex = 3;
-            // 
-            // A00
-            // 
-            this.A00.Frozen = true;
-            this.A00.HeaderText = "A00";
-            this.A00.Name = "A00";
-            // 
-            // A0101
-            // 
-            this.A0101.Frozen = true;
-            this.A0101.HeaderText = "A0101";
-            this.A0101.Name = "A0101";
-            // 
-            // A0104
-            // 
-            this.A0104.Frozen = true;
-            this.A0104.HeaderText = "A0104";
-            this.A0104.Name = "A0104";
             // 
             // Form1
             // 
@@ -153,9 +128,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn A00;
-        private System.Windows.Forms.DataGridViewTextBoxColumn A0101;
-        private System.Windows.Forms.DataGridViewTextBoxColumn A0104;
     }
 }
 

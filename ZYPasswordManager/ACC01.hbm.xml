@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="ZYPasswordManager"
+                   namespace="ZYPasswordManager">
+	<!-- more mapping info here -->
+	<class name ="ZYPasswordManager.ACC01,ZYPasswordManager">
+		<id name ="Rid" type="Guid" column="ID">
+			<generator class="assigned"/>
+		</id>
+		<property name="pingtai" type="String" column="pingtai"/>
+		<property name="pingtai_buchong" type="String" column="pingtai_buchong"/>
+		<property name="logonname" type="String" column="logonname"/>
+		<property name="password" type="String" column="Password"/>
+		<property name="telephone" type="String" column="telephone"/>
+		<property name="email" type="String" column="Email"/>
+		<property name="url" type="String" column="url"/>
+		<property name="islock" type="int" column="islock"/>
+	</class>
+</hibernate-mapping>

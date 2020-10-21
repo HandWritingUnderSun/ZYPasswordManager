@@ -43,13 +43,13 @@
             this.tb_logonname = new System.Windows.Forms.TextBox();
             this.tb_password = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tb_telephone = new System.Windows.Forms.TextBox();
+            this.tb_email = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.tb_url = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cb_islock = new System.Windows.Forms.ComboBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_zhlb)).BeginInit();
             this.SuspendLayout();
@@ -102,6 +102,7 @@
             this.button1.TabIndex = 4;
             this.button1.Text = "增加";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // label1
             // 
@@ -177,19 +178,19 @@
             this.label5.TabIndex = 13;
             this.label5.Text = "手机：";
             // 
-            // textBox1
+            // tb_telephone
             // 
-            this.textBox1.Location = new System.Drawing.Point(65, 81);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(121, 21);
-            this.textBox1.TabIndex = 14;
+            this.tb_telephone.Location = new System.Drawing.Point(65, 81);
+            this.tb_telephone.Name = "tb_telephone";
+            this.tb_telephone.Size = new System.Drawing.Size(121, 21);
+            this.tb_telephone.TabIndex = 14;
             // 
-            // textBox2
+            // tb_email
             // 
-            this.textBox2.Location = new System.Drawing.Point(245, 84);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(141, 21);
-            this.textBox2.TabIndex = 15;
+            this.tb_email.Location = new System.Drawing.Point(245, 84);
+            this.tb_email.Name = "tb_email";
+            this.tb_email.Size = new System.Drawing.Size(141, 21);
+            this.tb_email.TabIndex = 15;
             // 
             // label6
             // 
@@ -209,12 +210,12 @@
             this.label7.TabIndex = 18;
             this.label7.Text = "url：";
             // 
-            // textBox3
+            // tb_url
             // 
-            this.textBox3.Location = new System.Drawing.Point(436, 84);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(141, 21);
-            this.textBox3.TabIndex = 17;
+            this.tb_url.Location = new System.Drawing.Point(436, 84);
+            this.tb_url.Name = "tb_url";
+            this.tb_url.Size = new System.Drawing.Size(141, 21);
+            this.tb_url.TabIndex = 17;
             // 
             // label8
             // 
@@ -225,26 +226,26 @@
             this.label8.TabIndex = 19;
             this.label8.Text = "状态：";
             // 
-            // comboBox1
+            // cb_islock
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(617, 85);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(141, 20);
-            this.comboBox1.TabIndex = 20;
+            this.cb_islock.FormattingEnabled = true;
+            this.cb_islock.Location = new System.Drawing.Point(617, 85);
+            this.cb_islock.Name = "cb_islock";
+            this.cb_islock.Size = new System.Drawing.Size(141, 20);
+            this.cb_islock.TabIndex = 20;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cb_islock);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.tb_url);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tb_email);
+            this.Controls.Add(this.tb_telephone);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.tb_password);
             this.Controls.Add(this.tb_logonname);
@@ -286,13 +287,13 @@
         private System.Windows.Forms.TextBox tb_logonname;
         private System.Windows.Forms.TextBox tb_password;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tb_telephone;
+        private System.Windows.Forms.TextBox tb_email;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox tb_url;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cb_islock;
     }
 }
 

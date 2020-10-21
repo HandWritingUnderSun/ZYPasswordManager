@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ZYPasswordManager
+﻿namespace ZYPasswordManager
 {
-    class PingTai
+    public class PingTai
     {
         private string _dmcod;
         private string _dmcpt;

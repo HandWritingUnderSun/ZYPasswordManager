@@ -80,7 +80,7 @@ namespace ZYPasswordManager
             dgv_zhlb.RowHeadersVisible = false;
 
             // DataGridView1的第一列隐藏
-            dgv_zhlb.Columns[0].Visible = false;
+            //dgv_zhlb.Columns[0].Visible = false;
             // DataGridView1的第一行隐藏
             //dgv_zhlb.Rows[0].Visible = false;
 

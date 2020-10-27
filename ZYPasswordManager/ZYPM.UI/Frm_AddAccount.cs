@@ -63,5 +63,11 @@ namespace ZYPasswordManager.ZYPM.UI
             catch (Exception ex)
             { }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MD5Algorithm mD5Algorithm = new MD5Algorithm();
+            textBox1.Text = mD5Algorithm.ToMD5(tb_password.Text);
+        }
     }
 }

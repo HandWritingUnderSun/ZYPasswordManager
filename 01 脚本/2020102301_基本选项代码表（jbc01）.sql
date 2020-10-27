@@ -1,0 +1,26 @@
+----基本选项代码表，
+IF NOT EXISTS ( SELECT  name
+                FROM    sys.tables
+                WHERE   name = 'jbc01' )
+CREATE TABLE [dbo].jbc01(
+	[Dmcod] [NVARCHAR](4) NOT NULL,
+	[DmGrp] [NVARCHAR](20) NULL,
+	[DmCpt] [NVARCHAR](60) NOT NULL,
+	[DmLevCod] [NVARCHAR](54) NOT NULL,
+	[DmAbr1] [NVARCHAR](20) NOT NULL,
+	[DmAbr2] [NVARCHAR](20) NOT NULL,
+	[InpAbr] [NVARCHAR](20) NOT NULL,
+	[DmHnd] [NVARCHAR](15) NOT NULL,
+	[InpFrq] [INT] NULL,
+	[YesPrv] [TINYINT] NULL,
+	[Attribute] [INT] NULL,
+	[IsCanUse] [BIT] NOT NULL,
+ CONSTRAINT [PK_JBC01] PRIMARY KEY CLUSTERED 
+(
+	[Dmcod] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+

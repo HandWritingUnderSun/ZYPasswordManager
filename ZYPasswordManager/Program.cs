@@ -16,7 +16,9 @@ namespace ZYPasswordManager
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Frm_Main frm = new Frm_Main();
+            frm.ShowInTaskbar = true;
+            Application.Run(frm);
         }
     }
 }

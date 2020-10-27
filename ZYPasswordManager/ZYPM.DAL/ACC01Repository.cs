@@ -22,12 +22,19 @@ namespace ZYPasswordManager
 
         public IList<ACC01> GetACC01Infos()
         {
-            using (ISession session = SessionManager.GetSession())
+            try
             {
-                var ACC01s = session
-                    .CreateCriteria(typeof(ACC01))
-                    .List<ACC01>();
-                return ACC01s;
+                using (ISession session = SessionManager.GetSession())
+                {
+                    var ACC01s = session
+                        .CreateCriteria(typeof(ACC01))
+                        .List<ACC01>();
+                    return ACC01s;
+                }
+            }
+            catch(Exception ex)
+            {
+                return null;
             }
         }
 

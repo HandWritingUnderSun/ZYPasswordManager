@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ZYPasswordManager
+namespace ZYPM.Entity
 {
     public class JBC01
     {

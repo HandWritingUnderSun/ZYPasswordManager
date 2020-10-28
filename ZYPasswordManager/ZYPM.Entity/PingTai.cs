@@ -1,4 +1,4 @@
-﻿namespace ZYPasswordManager
+﻿namespace ZYPM.Entity
 {
     public class PingTai
     {

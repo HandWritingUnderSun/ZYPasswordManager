@@ -1,7 +1,7 @@
 ﻿using NHibernate;
 using NHibernate.Cfg;
 
-namespace ZYPasswordManager
+namespace ZYPM.Common
 {
     public class SessionManager
     {

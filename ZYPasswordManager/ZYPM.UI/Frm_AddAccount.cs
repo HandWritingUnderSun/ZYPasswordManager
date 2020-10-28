@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using ZYPM.Algorithm;
+using ZYPM.Entity;
+using ZYPM.DAL;
 
-namespace ZYPasswordManager.ZYPM.UI
+namespace ZYPM.UI
 {
     public partial class Frm_AddAccount : Form
     {

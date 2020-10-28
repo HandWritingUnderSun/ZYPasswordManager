@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ZYPasswordManager
+namespace ZYPM.Entity
 {
     public class A01
     {

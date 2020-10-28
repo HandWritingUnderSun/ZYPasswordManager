@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using ZYPM.Entity;
 
-namespace ZYPasswordManager
+namespace ZYPM.IDAL
 {
     interface IACC01Repository
     {

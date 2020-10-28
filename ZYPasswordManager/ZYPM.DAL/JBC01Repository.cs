@@ -1,8 +1,10 @@
 ﻿using NHibernate;
 using System;
 using System.Collections.Generic;
+using ZYPM.Entity;
+using ZYPM.Common;
 
-namespace ZYPasswordManager
+namespace ZYPM.DAL
 {
     public class JBC01Repository
     {

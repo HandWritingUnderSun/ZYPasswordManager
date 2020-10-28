@@ -1,4 +1,4 @@
-﻿namespace ZYPasswordManager
+﻿namespace ZYPM.UI
 {
     partial class Frm_Main
     {

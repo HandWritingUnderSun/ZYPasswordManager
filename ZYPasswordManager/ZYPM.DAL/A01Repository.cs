@@ -1,9 +1,11 @@
 ﻿using NHibernate;
-using NHibernate.Criterion;
 using System;
 using System.Collections.Generic;
+using ZYPM.Entity;
+using ZYPM.IDAL;
+using ZYPM.Common;
 
-namespace ZYPasswordManager
+namespace ZYPM.DAL
 {
     public class A01Repository
     {

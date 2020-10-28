@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using ZYPasswordManager.ZYPM.UI;
+using ZYPM.DAL;
+using ZYPM.Entity;
 
-namespace ZYPasswordManager
+namespace ZYPM.UI
 {
     public partial class Frm_Main : Form
     {

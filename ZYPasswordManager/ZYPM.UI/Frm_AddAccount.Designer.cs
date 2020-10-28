@@ -1,4 +1,4 @@
-﻿namespace ZYPasswordManager.ZYPM.UI
+﻿namespace ZYPM.UI
 {
     partial class Frm_AddAccount
     {

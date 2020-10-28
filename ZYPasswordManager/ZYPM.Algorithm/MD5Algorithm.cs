@@ -2,7 +2,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace ZYPasswordManager
+namespace ZYPM.Algorithm
 {
     public class MD5Algorithm
     {
